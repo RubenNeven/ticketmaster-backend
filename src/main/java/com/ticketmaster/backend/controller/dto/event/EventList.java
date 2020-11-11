@@ -1,6 +1,5 @@
-package com.ticketmaster.backend.controller.mapper;
+package com.ticketmaster.backend.controller.dto.event;
 
-import com.ticketmaster.backend.entity.Event;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,6 +12,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class EventList {
-    List<Event> eventList;
+    List<EventDto> eventList;
 
 }

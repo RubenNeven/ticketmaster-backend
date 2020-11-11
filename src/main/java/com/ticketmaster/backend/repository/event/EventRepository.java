@@ -1,6 +1,6 @@
-package com.ticketmaster.backend.repository;
+package com.ticketmaster.backend.repository.event;
 
-import com.ticketmaster.backend.entity.Event;
+import com.ticketmaster.backend.entity.event.Event;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.ticketmaster.backend.entity;
+package com.ticketmaster.backend.entity.event;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

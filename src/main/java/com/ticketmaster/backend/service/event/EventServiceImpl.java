@@ -1,8 +1,8 @@
-package com.ticketmaster.backend.service.impl;
+package com.ticketmaster.backend.service.event;
 
-import com.ticketmaster.backend.entity.Event;
-import com.ticketmaster.backend.repository.EventRepository;
-import com.ticketmaster.backend.service.EventService;
+import com.ticketmaster.backend.entity.event.Event;
+import com.ticketmaster.backend.repository.event.EventRepository;
+import com.ticketmaster.backend.service.event.EventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
